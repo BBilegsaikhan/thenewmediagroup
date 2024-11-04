@@ -1,0 +1,146 @@
+/*
+	CSS Library for Product BIZ Website
+	Media Type: Screen
+	Author: Batzaya B.
+	Date: 2011.10.29 - 2011.11.09
+	Version: 1.0
+*/
+
+body,
+td,
+th {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #222629;
+  -webkit-font-smoothing: antialiased;
+}
+a:link,
+a:visited,
+a:active {
+  color: #006e97;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  /*color: #0089c2;*/
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+  padding: 0px;
+}
+h1 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 14px;
+  line-height: 24px;
+}
+h4 {
+  color: #222629;
+  font-size: 13px;
+  margin-bottom: 14px;
+  text-transform: none;
+}
+h5 {
+  font-size: 14px;
+  line-height: 18px;
+}
+h6 {
+  font-size: 12px;
+  line-height: 16px;
+}
+.info,
+.success,
+.warning,
+.error {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #fff;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fff;
+  box-shadow: inset 0px 1px 0px 0px #fff;
+  line-height: 1em;
+}
+.info {
+  color: #00529b;
+  background-color: #bde5f8;
+  border-color: #3492e5;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0eefc', endColorstr='#BDE5F8'); /* for IE */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d0eefc),
+    to(#bde5f8)
+  ); /* for webkit browsers */
+  background: -moz-linear-gradient(
+    top,
+    #d0eefc,
+    #bde5f8
+  ); /* for firefox 3.6+ */
+}
+.success {
+  color: #4f8a10;
+  background-color: #dff2bf;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5f5c9', endColorstr='#DFF2BF'); /* for IE */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e5f5c9),
+    to(#dff2bf)
+  ); /* for webkit browsers */
+  background: -moz-linear-gradient(
+    top,
+    #e5f5c9,
+    #dff2bf
+  ); /* for firefox 3.6+ */
+}
+.warning {
+  color: #9f6000;
+  background-color: #feefb3;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcf2cb', endColorstr='#FEEFB3'); /* for IE */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fcf2cb),
+    to(#feefb3)
+  ); /* for webkit browsers */
+  background: -moz-linear-gradient(
+    top,
+    #fcf2cb,
+    #feefb3
+  ); /* for firefox 3.6+ */
+}
+.error {
+  color: #d8000c;
+  background-color: #ffbaba;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fccece', endColorstr='#FFBABA'); /* for IE */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fccece),
+    to(#ffbaba)
+  ); /* for webkit browsers */
+  background: -moz-linear-gradient(
+    top,
+    #fccece,
+    #ffbaba
+  ); /* for firefox 3.6+ */
+}

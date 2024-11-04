@@ -1,0 +1,294 @@
+.nm-slider-item {
+  /*background: url(../images/test.jpg) center no-repeat;*/
+  color: #fff;
+  padding: 60px 30px 30px;
+  background-size: cover !important;
+  text-align: center;
+
+  min-height: 500px;
+}
+
+.owl-wrapper .owl-item:first-child .nm-slider-item {
+  min-height: 583px;
+}
+
+.group {
+  margin-top: -51px;
+}
+
+.group-slider {
+  /*margin-bottom: 30px;*/
+}
+
+#content .nm-slider-item .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+  background-image: url("../images/bg.jpg");
+}
+
+#content .nm-slider-item .nm-content-section {
+  position: relative;
+
+  padding-top: 30px;
+}
+
+.nm-slider-item h2,
+.nm-slider-item h3 {
+  color: #fff;
+}
+
+.nm-slider-item h2 {
+  font-size: 30px;
+}
+
+.nm-slider-item h3 {
+  font-size: 38px;
+  margin-top: 15px;
+}
+
+.nm-slider-item .factor {
+  margin-bottom: 30px;
+  width: 60%;
+  border-radius: 2px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 30px auto 0;
+}
+
+.nm-slider-item .nm-description p,
+.nm-slider-item .factor p {
+  font-size: 13px;
+  line-height: 24px;
+}
+@media only screen and (min-width: 992px) {
+  .nm-slider-item .nm-description {
+    width: 78%;
+    margin: auto;
+    padding-top: 1px;
+  }
+}
+
+#content .nm-slider-item .nm-links {
+  margin: 50px 20px 0px;
+}
+
+#content .nm-slider-item .nm-links a {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-size: 15px;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 5px;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+#content .nm-slider-item .nm-links a span {
+  color: #fff;
+  line-height: 46px;
+}
+
+#content .nm-slider-item .nm-links a:hover {
+  border: 1px solid;
+  border-radius: 35px;
+  margin-top: -1px;
+}
+
+/*#content .nm-slider-item .nm-links a:hover span{
+	color: #000;
+}*/
+
+.group-list {
+  background: #ecf0f1;
+  padding: 30px 0;
+}
+
+.group-list ul {
+  overflow: hidden;
+  margin: 0 -6px;
+}
+
+.group-list ul h2 {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 35px !important;
+}
+
+.group-list ul li {
+  width: 12.5%;
+  float: left;
+  padding: 6px;
+  position: relative;
+  z-index: 50;
+}
+
+.group-list ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  overflow: hidden;
+  background-color: #dedede;
+  font-size: 11px;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #ffffff;
+  text-align: center;
+  background: #5ca47a;
+}
+
+. ul li a:hover:after,
+. ul li.active a:after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  right: 2px;
+  top: 2px;
+  border-style: solid;
+  border-width: 15px 0 0 15px;
+  border-color: transparent;
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+
+/*
+.group-list ul li>span{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background: #2980b9;
+	display: block;
+}*/
+
+.group-list ul li a span {
+  background: url("http://thenewmediagroup.co/media/thenewmediagroup/content/companies/new_media_marketing_agency_thumb.png")
+    0 16px no-repeat;
+  top: 50%;
+  left: 13px;
+  right: 13px;
+  margin-top: -21.425%;
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  padding: 42.85% 0 0 0;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat;
+  background-position: 0% 30.768% !important;
+}
+
+.home-filter ul li {
+  display: inline-block;
+  line-height: 42px;
+  margin-right: 18px;
+}
+
+.home-filter ul li.active:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid;
+  border-bottom-color: #444;
+  margin-right: 18px;
+}
+
+.home-filter ul li[data-target="companies"].active:after {
+  border-bottom-color: #2980b9;
+}
+
+.home-filter ul li[data-target="home_products"].active:after {
+  border-bottom-color: #16a085;
+}
+
+.home-filter ul li[data-target="home_communities"].active:after {
+  border-bottom-color: #8e44ad;
+}
+
+.home-filter ul li[data-target="home_partnerships"].active:after {
+  border-bottom-color: #c0392b;
+}
+
+.group-list ul li[data-tag="companies"] a {
+  background: #2980b9;
+}
+
+.group-list ul li[data-tag="home_products"] a {
+  background: #16a085;
+}
+
+.group-list ul li[data-tag="home_communities"] a {
+  background: #8e44ad;
+}
+
+.group-list ul li[data-tag="home_partnerships"] a {
+  background: #c0392b;
+}
+
+.home-filter ul li.active a {
+  font-weight: bold;
+}
+
+.portfolio-header.home-filter {
+  margin-bottom: 0;
+}
+
+.portfolio-header.home-filter .wrapper {
+  padding: 0;
+}
+
+.portfolio-header.home-filter ul li button {
+  border-right: 1px solid #d2d6d5;
+  padding-right: 18px;
+  margin-right: 0;
+}
+
+.home-filter ul li:last-child button {
+  border-right: none;
+}
+
+#header .menu-icon {
+  display: none;
+}
+
+/*sort*/
+
+.tagsort-tags-container span {
+  display: inline-block;
+  border: 2px solid #ccc;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 10px;
+  padding: 5px 9px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.tagsort-tags-container span:hover {
+  border: 2px solid #000;
+  color: #fff;
+  background-color: #000;
+}
+.tagsort-tags-container span.tagsort-active {
+  border: 2px solid #000;
+  color: #000;
+  background-color: transparent;
+}

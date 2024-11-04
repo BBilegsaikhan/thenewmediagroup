@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+/* Tagger */
+
+#t_wrapper {
+	width: 500px;
+}
+#t_container {
+	overflow: hidden;
+	cursor: text;
+	background-color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-indent: 0px;
+	outline: none;
+	color: #666;
+	background: #fafafa;
+	border: solid 1px #eaeaea;
+	padding: 7px 6px;
+}
+#t_container input {
+	background: #fafafa;
+}
+#t_container a {
+	color: #666;
+}
+#t_container #tag_textbox {
+	border: none;
+	float: left;
+	width: 250px;
+}
+#t_container #tag_textbox:focus {
+	outline: none;
+}
+#t_container #holder .tag {
+	border: 1px solid #ddd;
+	padding: 1px 3px;
+	float: left;
+	margin: 1px;
+	cursor: pointer;
+}
+#t_container #holder .selected {
+	background-color: #eee;
+}
+#t_container #holder .tag .delete {
+	background: url(/media/admin/images/close.gif) repeat scroll 0 0;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	float: right;
+	margin-left: 2px;
+}
+#t_container #holder .tag .delete:hover {
+	background: url(/media/admin/images/close.gif) repeat scroll 0 -7px;
+}
+#suggestor {
+	font-size: 11px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	z-index: 99999;
+	overflow: hidden;
+	position: absolute;
+}
+#suggestor li {
+	padding: 5px;
+	cursor: pointer;
+	background-color: #eee;
+	width: 500px;
+	display: block;
+}
+#suggestor li:hover {
+	padding: 5px;
+	background-color: #ccc;
+}
+.watermark {
+}
+
+
+
+/* Tagger */
+#tag_container {
+	overflow: hidden;
+	overflow-y: visible;
+	border: 1px solid #dcddde;
+	background: #edeeee url(images/input_gradient.png) repeat-x top left;
+	padding: 6px;
+	color: #686868;
+	outline: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#tag_container #selected_tags span {
+	display: block;
+	float: left;
+	border: 1px solid #ddd;
+	background-color: #f2f2f2;
+	padding: 3px 4px 4px 4px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#tag_container #selected_tags span:hover {
+	background-color: #fafafa;	
+	color: #333;
+}
+
+#tag_container #selected_tags span.selected
+{
+	background-color: #fafafa;	
+	color: #b83a3a;
+}
+
+#tag_container #selected_tags span img {
+	vertical-align: middle;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+#tag_container #tag_textbox {
+	border: none;
+	float: left;
+	display: block;
+	font-family: Arial;
+	font-size: 11px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 7px;
+	background-color: #edeeee;	
+}
+
+#tag_container #tag_textbox:focus {
+	outline: none;
+}
+
+#tag_suggestor
+{
+	box-shadow: 0 0 6px #aaa;
+	-moz-box-shadow: 0 0 6px #aaa;
+	-webkit-box-shadow: 0 0 6px #aaa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;	
+	font-size: 11px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	z-index: 99999;
+	overflow: hidden;
+	position: absolute;
+	background-color: #fafafa;
+	width: 300px;
+	height: 150px;
+	overflow-y: auto;
+	display: none;
+}
+
+#tag_suggestor .li_tag{
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: #f6f6f6;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	margin: 0px;	
+}
+
+#tag_suggestor .set_focus{
+	background-color: #ddd;
+}
+
+
+/* POSTer */
+#post_container {
+	overflow: hidden;
+	overflow-y: visible;
+	border: 1px solid #dcddde;
+	background: #edeeee url(images/input_gradient.png) repeat-x top left;
+	padding: 6px;
+	color: #686868;
+	outline: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#post_container #selected_posts span {
+	display: block;
+	float: left;
+	border: 1px solid #ddd;
+	background-color: #f2f2f2;
+	padding: 3px 4px 4px 4px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#post_container #selected_posts span:hover {
+	background-color: #fafafa;	
+	color: #333;
+}
+
+#post_container #selected_posts span.selected
+{
+	background-color: #fafafa;	
+	color: #b83a3a;
+}
+
+#post_container #selected_posts span img {
+	vertical-align: middle;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+#post_container #post_textbox {
+	border: none;
+	float: left;
+	display: block;
+	font-family: Arial;
+	font-size: 11px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 7px;
+	background-color: #edeeee;	
+}
+
+#post_container #post_textbox:focus {
+	outline: none;
+}
+
+#post_suggestor
+{
+	box-shadow: 0 0 6px #aaa;
+	-moz-box-shadow: 0 0 6px #aaa;
+	-webkit-box-shadow: 0 0 6px #aaa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;	
+	font-size: 11px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	z-index: 99999;
+	overflow: hidden;
+	position: absolute;
+	background-color: #fafafa;
+	width: 300px;
+	height: 150px;
+	overflow-y: auto;
+	display: none;
+}
+
+#post_suggestor .li_post{
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: #f6f6f6;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	margin: 0px;	
+}
+
+#post_suggestor .set_focus{
+	background-color: #ddd;
+}

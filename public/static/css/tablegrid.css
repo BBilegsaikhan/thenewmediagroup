@@ -1,0 +1,92 @@
+/*
+	CSS Library for Product BIZ Website
+	Media Type: Screen
+	Author: Batzaya B.
+	Date: 2011.10.29 - 2011.11.09
+	Version: 1.0
+*/
+
+.grid table {
+	border-top: 1px solid #333;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.grid table th {
+	color: #333;
+	font-size: 11px;
+	padding: 25px 10px 10px 10px;
+	text-align: left;
+	border-bottom: solid 1px #ddd;
+	text-shadow: 0px 0px, 1px 1px #fff;
+	font-weight: bold;
+}
+.grid table tr td {
+	font-size: 11px;
+	padding: 10px;
+	vertical-align:top;
+	border-top: solid 1px #ddd;
+}
+.grid table tr:hover td {
+	background-color: #f6f6f6;
+	color: #222;
+	cursor: pointer;
+}
+.grid table tr td:nth-child(2) {
+	font-size: 14px;
+}
+.grid table tr td span {
+	display: block;
+	font-size: 10px;
+	color: #888;
+}
+.grid table tr td:last-child {
+	text-align: right;
+}
+.grid table tr td:last-child a {
+	display: inline-block;
+	border: 1px solid #ddd;
+	width: 18px;
+	height: 18px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.grid table tr td:last-child a:first-child {
+	background: #f7f7f7 url('../images/icon_edit.gif') no-repeat 1px 1px;
+}
+.grid table tr td:last-child a:nth-child(2) {
+	background: #f7f7f7 url('../images/icon_delete.gif') no-repeat 1px 1px;
+}
+.grid table tr td:last-child a:last-child {
+	background: #f7f7f7 url('../images/icon_preview.gif') no-repeat 1px 1px;
+}
+.grid table tr td:last-child a:hover {
+	border: 1px solid #ccc;
+	background-color: #fff;
+} 
+.grid table tr td sup {
+	font-size: 8px;
+	text-transform: uppercase;
+	color: #ef0000;
+}
+.grid .pagination {
+	border-top: solid 1px #ddd;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 20px 5px;
+}
+/* 
+
+When other link color needed:
+
+.grid table tr td a:link,
+.grid table tr td a:visited,
+.grid table tr td a:active {
+	color: #58595B;
+}
+.grid table tr td a:hover {
+	color: #000;
+}
+*/

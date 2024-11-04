@@ -1,0 +1,281 @@
+img {
+  max-width: 100%;
+}
+.center {
+  text-align: center;
+}
+i {
+  font-style: italic;
+}
+b {
+  font-weight: bold;
+}
+.relative {
+  position: relative;
+}
+.portfolio-header {
+  background-color: #e1e3e4;
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+.portfolio-header .wrapper {
+  padding: 12px 0;
+}
+.portfolio-header a {
+  display: inline-block;
+  margin-right: 35px;
+  color: #313131;
+  font-size: 15px;
+  line-height: 18px;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  border-right: 1px solid #d2d6d5;
+  padding-right: 18px;
+}
+.portfolio-header a:last-child {
+  border-right: none;
+}
+.portfolio-header a:hover,
+.portfolio-header a.active {
+  color: #232323;
+}
+.p-filter div {
+  background-color: #eee;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  padding: 12px 24px;
+  line-height: 18px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 24;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.p-filter div span {
+  font-size: 10px;
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: bottom;
+}
+.p-filter ul {
+  position: absolute;
+  top: 100%;
+  background-color: #333333;
+  min-width: 100%;
+  height: auto;
+  left: -9999px;
+}
+.p-filter div:hover > ul {
+  left: 0;
+}
+.p-filter ul li {
+  height: 0;
+  -webkit-transition: height 0.2s ease;
+  -moz-transition: height 0.2s ease;
+  -ms-transition: height 0.2s ease;
+  -o-transition: height 0.2s ease;
+  transition: height 0.2s ease;
+}
+.p-filter:hover ul li {
+  height: 32px;
+}
+.p-filter:hover div {
+  background-color: #333333;
+  color: #ffffff;
+}
+.p-filter ul li a {
+  position: relative;
+  display: block;
+  padding: 10px 20px 10px 24px;
+  font-size: 12px;
+  background: #333333;
+  text-decoration: none;
+  color: #dddddd;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  margin: 0;
+  text-align: left;
+}
+.p-filter ul li:hover a,
+.p-filter ul li:hover {
+  color: #ffffff;
+}
+
+.p-filter ul li a::after {
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+.p-filter ul li:hover a::after {
+  border-color: #ffffff;
+}
+
+.portfolio-grid {
+  text-align: center;
+  width: 996px;
+  margin: 0 auto;
+}
+.portfolio-grid *,
+.portfolio-article * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.portfolio-box {
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 8px;
+  width: 233px;
+  height: 130px;
+}
+
+#cateogry_portfolio .portfolio-box:nth-child(1n),
+#cateogry_portfolio .portfolio-box:nth-child(2n),
+#cateogry_portfolio .portfolio-box:nth-child(3n),
+#cateogry_portfolio .portfolio-box:nth-child(4n) {
+  width: 474px;
+  height: 276px;
+}
+#cateogry_portfolio .portfolio-box:nth-child(5n),
+#cateogry_portfolio .portfolio-box:nth-child(6n),
+#cateogry_portfolio .portfolio-box:nth-child(7n),
+#cateogry_portfolio .portfolio-box:nth-child(8n) {
+  width: 229px;
+  height: 130px;
+}
+.portfolio-box .curtain {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.portfolio-box:hover .curtain {
+  opacity: 0.3;
+}
+.portfolio-box .caption {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-left: 16px;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition-property: height, background;
+  -moz-transition-property: height, background;
+  -o-transition-property: height, background;
+  transition-property: height, background;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.portfolio-box .caption h5 {
+  white-space: nowrap;
+  -webkit-mask-box-image: -webkit-linear-gradient(
+    left,
+    #fff 85%,
+    transparent 98%
+  );
+  overflow: hidden;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  padding: 12px 0;
+}
+.portfolio-box:hover .caption {
+  background: rgba(0, 0, 0, 0);
+}
+.portfolio-article .p-title,
+.portfolio-article .p-content {
+  width: 540px;
+  margin: 0 auto;
+}
+.portfolio-article .p-title {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  line-height: 1.15em;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 24px 32px;
+  margin-bottom: 32px;
+}
+.portfolio-article .p-title a {
+  font-size: 16px;
+  color: #48a8d2;
+}
+.portfolio-article .p-title label {
+  display: block;
+  font-family: "Comfortaa", cursive;
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #0a0a0a;
+  line-height: 36px;
+}
+.portfolio-article .p-image {
+  margin-bottom: 60px;
+}
+.portfolio-article .p-image img {
+  max-height: 1000px;
+}
+.portfolio-article .p-content img {
+  display: none;
+}
+.portfolio-article .p-content {
+  position: relative;
+  margin: auto;
+  margin-bottom: 120px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.portfolio-article .p-content p {
+  margin-bottom: 24px;
+}
+.portfolio-article .p-content {
+  color: #313131;
+  font-family: "Comfortaa", cursive;
+}
