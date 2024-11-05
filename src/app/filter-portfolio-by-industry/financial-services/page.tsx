@@ -116,7 +116,8 @@ export default function page() {
             className="portfolio-box"
             href="/accounting/"
             style={{
-              backgroundImage: 'url("/media/thenewmediagroup/content/ac.jpg")',
+              backgroundImage:
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/ac.jpg")',
             }}
           >
             <div className="curtain" />
@@ -129,7 +130,7 @@ export default function page() {
             href="/capital-bank/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_1_taXcdiz.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_1_taXcdiz.png")',
             }}
           >
             <div className="curtain" />
@@ -142,7 +143,7 @@ export default function page() {
             href="/golomt-securities/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_YsYlmiN.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_YsYlmiN.jpg")',
             }}
           >
             <div className="curtain" />
@@ -155,7 +156,7 @@ export default function page() {
             href="/xac-leasing/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/khas_leasing1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/khas_leasing1.png")',
             }}
           >
             <div className="curtain" />
@@ -168,7 +169,7 @@ export default function page() {
             href="/tenger-financial-group/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/placeit_MBSLxtJ.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/placeit_MBSLxtJ.jpg")',
             }}
           >
             <div className="curtain" />
@@ -181,7 +182,7 @@ export default function page() {
             href="/development-bank-of-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/DBM.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/DBM.png")',
             }}
           >
             <div className="curtain" />

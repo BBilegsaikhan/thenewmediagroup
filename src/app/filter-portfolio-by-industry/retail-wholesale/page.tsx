@@ -117,7 +117,7 @@ export default function page() {
             href="/wellmart/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/wellmart1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/wellmart1.png")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/europharma/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/creative/9.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/creative/9.png")',
             }}
           >
             <div className="curtain" />

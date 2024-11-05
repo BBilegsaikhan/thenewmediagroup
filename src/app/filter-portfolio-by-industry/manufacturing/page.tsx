@@ -130,7 +130,7 @@ export default function page() {
             href="/hasu-megawatt-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/khasu.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/khasu.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/jijig-dund-uildver-erhlegchded-zoriulsan-medeelliin-san/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/sme.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/sme.jpg")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/ochir-undraa-group/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/ou.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/ou.jpg")',
             }}
           >
             <div className="curtain" />
@@ -169,7 +169,7 @@ export default function page() {
             href="/erel-group/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_2.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_2.jpg")',
             }}
           >
             <div className="curtain" />
@@ -182,7 +182,7 @@ export default function page() {
             href="/nans-cashmere/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_1hZ5wX6.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_1hZ5wX6.jpg")',
             }}
           >
             <div className="curtain" />

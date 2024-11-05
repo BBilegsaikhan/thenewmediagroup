@@ -117,7 +117,7 @@ export default function page() {
             href="/tsag-tur-magazine/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/tsag_tur1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/tsag_tur1.png")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/daily-news/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/DNN.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/DNN.jpg")',
             }}
           >
             <div className="curtain" />

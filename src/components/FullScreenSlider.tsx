@@ -11,7 +11,7 @@ export default function FullScreenSlider() {
     <div className="group-slider owl-carousel owl-theme">
       <div className="owl-wrapper-outer autoHeight" style={{ height: 500 }}>
         <Swiper className="mySwiper" slidesPerView={1}>
-          <div className="owl-wrapper">
+          <div className="owl-wrapper bg-black">
             <SwiperSlide>
               <div className="owl-item" style={{ width: "100vw" }}>
                 <div
@@ -49,7 +49,7 @@ export default function FullScreenSlider() {
                         <span className="icon-link" />{" "}
                       </a>
                       <a target="_blank" href="https://facebook.com/NMGteam">
-                        <span className="icon-facebook" />{" "}
+                        <span className="png-facebook" />{" "}
                       </a>
                       <a target="_blank" href="https://twitter.com/NMGteam/">
                         <span className="icon-twitter" />{" "}

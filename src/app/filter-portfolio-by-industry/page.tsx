@@ -117,7 +117,7 @@ export default function page() {
             href="/oyu-tolgoi/"
             style={{
               backgroundImage:
-                'url("http://newmediamarketingagency.com/media/nmgteam/content/works/work%20uchral/Oyu%20Tolgoi/1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_16.jpg")',
             }}
           >
             <div className="curtain" />

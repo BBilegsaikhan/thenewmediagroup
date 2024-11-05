@@ -117,7 +117,7 @@ export default function page() {
             href="/darkhan-uul-province/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/darkhan.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/darkhan.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/great-british-fair-mongolia-2015/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/Poster_web_fb_.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/Poster_web_fb_.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/mongoliin-ardchilsan-kholboo/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/1_HI7qDKu.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/1_HI7qDKu.jpg")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/aimag-index/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/aimag.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/aimag.jpg")',
             }}
           >
             <div className="curtain" />
@@ -169,7 +169,7 @@ export default function page() {
             href="/business-council-of-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/bcm.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/bcm.jpg")',
             }}
           >
             <div className="curtain" />
@@ -182,7 +182,7 @@ export default function page() {
             href="/mongolian-provincial-competitiveness-research/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_pftrSit.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_pftrSit.jpg")',
             }}
           >
             <div className="curtain" />
@@ -195,7 +195,7 @@ export default function page() {
             href="/%D1%83%D0%BB%D1%81-%D1%82%D3%A9%D1%80%D0%B4-%D1%88%D0%B8%D0%BD%D1%8D-%D0%BC%D0%B0%D0%BD%D0%BB%D0%B0%D0%B9%D0%BB%D0%B0%D0%B3%D1%87/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/manlailagch.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/manlailagch.png")',
             }}
           >
             <div className="curtain" />

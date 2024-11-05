@@ -117,7 +117,7 @@ export default function page() {
             href="/hasu-megawatt-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/khasu.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/khasu.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/erel-group/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_2.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_2.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/burd-group/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_w1ErMYK.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_w1ErMYK.jpg")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/nano-blok/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/1.jpg")',
             }}
           >
             <div className="curtain" />

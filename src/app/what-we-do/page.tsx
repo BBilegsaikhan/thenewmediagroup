@@ -24,7 +24,7 @@ export default function page() {
                   <stop offset="0%" stopColor="#6bd0e4" />
                   <stop offset="33%" stopColor="#604eb1" />
                   <stop offset="66%" stopColor="#c88e66" />
-                  <stop offset="100%" stopColor="#c955a9" />
+                  `` <stop offset="100%" stopColor="#c955a9" />
                 </linearGradient>
               </defs>
               <path

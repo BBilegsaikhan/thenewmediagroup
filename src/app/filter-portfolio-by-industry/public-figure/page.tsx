@@ -117,7 +117,7 @@ export default function page() {
             href="/mergejil/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/mergejil.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/mergejil.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/jargal-defacto/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1.png")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/elbegdorj/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/2.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/2.jpg")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/batbold-sukhbaatar/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/S.batbold1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/S.batbold1.png")',
             }}
           >
             <div className="curtain" />
@@ -169,7 +169,7 @@ export default function page() {
             href="/ganhuyag-chuluun-hutagt/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/2_njiTFkD.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/2_njiTFkD.jpg")',
             }}
           >
             <div className="curtain" />
@@ -182,7 +182,7 @@ export default function page() {
             href="/oyun-erdene-luvsannamsrain/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/Oyun-Erdene1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/Oyun-Erdene1.png")',
             }}
           >
             <div className="curtain" />
@@ -195,7 +195,7 @@ export default function page() {
             href="/khurelsukh-ukhnaa/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_1_XZuiFEA.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_1_XZuiFEA.png")',
             }}
           >
             <div className="curtain" />

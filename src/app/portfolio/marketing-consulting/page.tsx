@@ -119,7 +119,7 @@ export default function page() {
             href="/great-british-fair-mongolia-2015/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/Poster_web_fb_.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/Poster_web_fb_.jpg")',
             }}
           >
             <div className="curtain" />
@@ -132,7 +132,7 @@ export default function page() {
             href="/hackathon-youth-2015/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/11872245_757567294387216_7152081357512143032_o.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/11872245_757567294387216_7152081357512143032_o.jpg")',
             }}
           >
             <div className="curtain" />
@@ -145,7 +145,7 @@ export default function page() {
             href="/mongolian-beekeepers-association/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/honey.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/honey.jpg")',
             }}
           >
             <div className="curtain" />
@@ -158,7 +158,7 @@ export default function page() {
             href="/pizza-hut/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/placeit-4.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/placeit-4.jpg")',
             }}
           >
             <div className="curtain" />
@@ -171,7 +171,7 @@ export default function page() {
             href="/kfc-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/placeit-2.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/placeit-2.jpg")',
             }}
           >
             <div className="curtain" />
@@ -184,7 +184,7 @@ export default function page() {
             href="/bloomberg-tv-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_4fpStNF.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_4fpStNF.png")',
             }}
           >
             <div className="curtain" />
@@ -197,7 +197,7 @@ export default function page() {
             href="/the-coffee-bean-and-tea-leaf/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/CoffeeBeanandTeaLeaf052510-01-masterwits-cc-390x235.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/CoffeeBeanandTeaLeaf052510-01-masterwits-cc-390x235.jpg")',
             }}
           >
             <div className="curtain" />
@@ -210,7 +210,7 @@ export default function page() {
             href="/%D1%83%D0%BB%D1%81-%D1%82%D3%A9%D1%80%D0%B4-%D1%88%D0%B8%D0%BD%D1%8D-%D0%BC%D0%B0%D0%BD%D0%BB%D0%B0%D0%B9%D0%BB%D0%B0%D0%B3%D1%87/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/manlailagch.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/manlailagch.png")',
             }}
           >
             <div className="curtain" />
@@ -225,7 +225,7 @@ export default function page() {
             href="/national-life-insurance/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/creative/2.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/creative/2.png")',
             }}
           >
             <div className="curtain" />
@@ -238,7 +238,7 @@ export default function page() {
             href="/wagner-asia-automotive-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_1.png")',
             }}
           >
             <div className="curtain" />
@@ -251,7 +251,7 @@ export default function page() {
             href="/tengis-cinema/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_4qRVjAR.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_4qRVjAR.png")',
             }}
           >
             <div className="curtain" />
@@ -263,7 +263,8 @@ export default function page() {
             className="portfolio-box"
             href="/millennium-challenge-corporation/"
             style={{
-              backgroundImage: 'url("/media/thenewmediagroup/content/5.jpg")',
+              backgroundImage:
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/5.jpg")',
             }}
           >
             <div className="curtain" />
@@ -276,7 +277,7 @@ export default function page() {
             href="/heineken/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/Heineken.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/Heineken.jpg")',
             }}
           >
             <div className="curtain" />
@@ -289,7 +290,7 @@ export default function page() {
             href="/state-bank/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/placeit.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/placeit.jpg")',
             }}
           >
             <div className="curtain" />

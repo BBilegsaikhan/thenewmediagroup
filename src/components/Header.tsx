@@ -1,50 +1,50 @@
 "use client";
 import React, { useEffect } from "react";
-import $ from "jquery";
+// import $ from "jquery";
 const Header: React.FC = () => {
-  useEffect(() => {
-    const handleSearchClick = () => {
-      $("#mainmenu").stop().animate({ marginRight: "168px" });
-      $("#search").stop().animate({ width: "150px" });
-    };
+  // useEffect(() => {
+  //   const handleSearchClick = () => {
+  //     $("#mainmenu").stop().animate({ marginRight: "168px" });
+  //     $("#search").stop().animate({ width: "150px" });
+  //   };
 
-    const handleSearchBlur = () => {
-      $("#mainmenu").animate({ marginRight: "50px" });
-      $("#search").animate({ width: "1px" });
-      $("#search").val("");
-    };
+  //   const handleSearchBlur = () => {
+  //     $("#mainmenu").animate({ marginRight: "50px" });
+  //     $("#search").animate({ width: "1px" });
+  //     $("#search").val("");
+  //   };
 
-    $("#search").on("click", handleSearchClick);
-    $("#search").on("blur", handleSearchBlur);
+  //   $("#search").on("click", handleSearchClick);
+  //   $("#search").on("blur", handleSearchBlur);
 
-    $(".menu-icon button").on("click", () => {
-      $("#mainmenu").toggleClass("close");
-    });
+  //   $(".menu-icon button").on("click", () => {
+  //     $("#mainmenu").toggleClass("close");
+  //   });
 
-    selectMenu();
+  //   selectMenu();
 
-    return () => {
-      $("#search").off("click", handleSearchClick);
-      $("#search").off("blur", handleSearchBlur);
-      $(".menu-icon button").off("click");
-    };
-  }, []);
+  //   return () => {
+  //     $("#search").off("click", handleSearchClick);
+  //     $("#search").off("blur", handleSearchBlur);
+  //     $(".menu-icon button").off("click");
+  //   };
+  // }, []);
 
-  const selectMenu = () => {
-    const path = location.pathname;
-    let flag = false;
+  // const selectMenu = () => {
+  //   const path = location.pathname;
+  //   let flag = false;
 
-    $(".mainmenu a").each(function (index, element) {
-      $(element).addClass("noajax");
-      if (encodeURI($(element).attr("href") || "") === path) {
-        $(".mainmenu a").removeClass("selected");
-        $(element).addClass("selected");
-        flag = true;
-      }
-    });
+  //   $(".mainmenu a").each(function (index, element) {
+  //     $(element).addClass("noajax");
+  //     if (encodeURI($(element).attr("href") || "") === path) {
+  //       $(".mainmenu a").removeClass("selected");
+  //       $(element).addClass("selected");
+  //       flag = true;
+  //     }
+  //   });
 
-    if (!flag) $(".mainmenu a").removeClass("selected");
-  };
+  //   if (!flag) $(".mainmenu a").removeClass("selected");
+  // };
   return (
     <div id="web">
       <div id="header" className="">

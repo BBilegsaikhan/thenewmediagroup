@@ -117,7 +117,7 @@ export default function page() {
             href="/tuguldur-foundation/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/placeit_16_YH6Xw0q.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_16_YH6Xw0q.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/mongoliin-%D0%BC%D0%B0rketingiin-kholboo/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/mmh.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/mmh.jpg")',
             }}
           >
             <div className="curtain" />

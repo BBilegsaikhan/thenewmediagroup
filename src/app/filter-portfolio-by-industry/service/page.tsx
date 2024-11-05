@@ -117,7 +117,7 @@ export default function page() {
             href="/e-mart/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/placeit_7.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/placeit_7.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/jet-school-of-english/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/placeit_3.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/placeit_3.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/hunnu-mall/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_YIYyyTv.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_YIYyyTv.jpg")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/everyday/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/Everyday1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/Everyday1.png")',
             }}
           >
             <div className="curtain" />
@@ -169,7 +169,7 @@ export default function page() {
             href="/tavin-us/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/50_us1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/50_us1.png")',
             }}
           >
             <div className="curtain" />
@@ -182,7 +182,7 @@ export default function page() {
             href="/sansar-media-group/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/sansar2.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/sansar2.png")',
             }}
           >
             <div className="curtain" />
@@ -195,7 +195,7 @@ export default function page() {
             href="/mongolian-student-sports-federation/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_BOJLrkl.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_BOJLrkl.jpg")',
             }}
           >
             <div className="curtain" />
@@ -208,7 +208,7 @@ export default function page() {
             href="/mongolia-pavilion/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1.jpg")',
             }}
           >
             <div className="curtain" />
@@ -223,7 +223,7 @@ export default function page() {
             href="/gatsuurt/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_1_Q1HlsZF.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_1_Q1HlsZF.png")',
             }}
           >
             <div className="curtain" />
@@ -236,7 +236,7 @@ export default function page() {
             href="/tenger-insurance/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/tenger_daatgal1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/tenger_daatgal1.png")',
             }}
           >
             <div className="curtain" />
@@ -249,7 +249,7 @@ export default function page() {
             href="/national-life-insurance/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/creative/2.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/creative/2.png")',
             }}
           >
             <div className="curtain" />
@@ -262,7 +262,7 @@ export default function page() {
             href="/tengis-cinema/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_4qRVjAR.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_4qRVjAR.png")',
             }}
           >
             <div className="curtain" />
@@ -275,7 +275,7 @@ export default function page() {
             href="/mongolian-star-distribution-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/creative/mongolian_star_distrbution_logo.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/creative/mongolian_star_distrbution_logo.jpg")',
             }}
           >
             <div className="curtain" />
@@ -301,7 +301,7 @@ export default function page() {
             href="/europharma/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/creative/9.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/creative/9.png")',
             }}
           >
             <div className="curtain" />

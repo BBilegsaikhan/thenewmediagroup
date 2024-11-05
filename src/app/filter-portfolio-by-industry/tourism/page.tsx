@@ -117,7 +117,7 @@ export default function page() {
             href="/mongolian-secret-history/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/placeit_16.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_16.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/unique-travel/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/placeit_16.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/placeit_16.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/discover-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_s1eQti1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_s1eQti1.jpg")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/air-express-travel/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/TVK_2968.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/TVK_2968.jpg")',
             }}
           >
             <div className="curtain" />
@@ -169,7 +169,7 @@ export default function page() {
             href="/best-travel-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/2_1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/2_1.jpg")',
             }}
           >
             <div className="curtain" />
@@ -182,7 +182,7 @@ export default function page() {
             href="/blue-wolf-travel/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/placeit_1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_1.jpg")',
             }}
           >
             <div className="curtain" />

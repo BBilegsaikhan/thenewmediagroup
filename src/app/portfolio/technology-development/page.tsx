@@ -142,7 +142,7 @@ export default function page() {
             href="/darkhan-uul-province/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/darkhan.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/darkhan.jpg")',
             }}
           >
             <div className="curtain" />
@@ -155,7 +155,7 @@ export default function page() {
             href="/shangri-la-centre/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/shangrila.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/shangrila.jpg")',
             }}
           >
             <div className="curtain" />
@@ -168,7 +168,7 @@ export default function page() {
             href="/e-mart/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/placeit_7.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/placeit_7.jpg")',
             }}
           >
             <div className="curtain" />
@@ -181,7 +181,7 @@ export default function page() {
             href="/jet-school-of-english/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/placeit_3.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/placeit_3.jpg")',
             }}
           >
             <div className="curtain" />
@@ -194,7 +194,7 @@ export default function page() {
             href="/mongoliin-ardchilsan-kholboo/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/1_HI7qDKu.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/1_HI7qDKu.jpg")',
             }}
           >
             <div className="curtain" />
@@ -207,7 +207,7 @@ export default function page() {
             href="/hasu-megawatt-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/khasu.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/khasu.jpg")',
             }}
           >
             <div className="curtain" />
@@ -222,7 +222,7 @@ export default function page() {
             href="/jijig-dund-uildver-erhlegchded-zoriulsan-medeelliin-san/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/sme.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/sme.jpg")',
             }}
           >
             <div className="curtain" />
@@ -235,7 +235,7 @@ export default function page() {
             href="/aimag-index/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/aimag.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/aimag.jpg")',
             }}
           >
             <div className="curtain" />
@@ -247,7 +247,8 @@ export default function page() {
             className="portfolio-box"
             href="/accounting/"
             style={{
-              backgroundImage: 'url("/media/thenewmediagroup/content/ac.jpg")',
+              backgroundImage:
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/ac.jpg")',
             }}
           >
             <div className="curtain" />
@@ -260,7 +261,7 @@ export default function page() {
             href="/ochir-undraa-group/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/ou.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/ou.jpg")',
             }}
           >
             <div className="curtain" />
@@ -273,7 +274,7 @@ export default function page() {
             href="/gem/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/placeit_17.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_17.jpg")',
             }}
           >
             <div className="curtain" />
@@ -286,7 +287,7 @@ export default function page() {
             href="/mongolian-secret-history/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/placeit_16.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_16.jpg")',
             }}
           >
             <div className="curtain" />
@@ -299,7 +300,7 @@ export default function page() {
             href="/unique-travel/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/placeit_16.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/placeit_16.jpg")',
             }}
           >
             <div className="curtain" />
@@ -312,7 +313,7 @@ export default function page() {
             href="/tuguldur-foundation/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/placeit_16_YH6Xw0q.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_16_YH6Xw0q.jpg")',
             }}
           >
             <div className="curtain" />
@@ -327,7 +328,7 @@ export default function page() {
             href="/business-council-of-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/bcm.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/bcm.jpg")',
             }}
           >
             <div className="curtain" />
@@ -340,7 +341,7 @@ export default function page() {
             href="/mongoliin-%D0%BC%D0%B0rketingiin-kholboo/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/mmh.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/mmh.jpg")',
             }}
           >
             <div className="curtain" />
@@ -353,7 +354,7 @@ export default function page() {
             href="/jci-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/jci1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/jci1.jpg")',
             }}
           >
             <div className="curtain" />
@@ -366,7 +367,7 @@ export default function page() {
             href="/mergejil/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/mergejil.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/mergejil.jpg")',
             }}
           >
             <div className="curtain" />

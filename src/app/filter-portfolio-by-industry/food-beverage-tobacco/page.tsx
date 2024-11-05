@@ -117,7 +117,7 @@ export default function page() {
             href="/pizza-hut/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/placeit-4.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/placeit-4.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/gem/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/placeit_17.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/placeit_17.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/the-coffee-bean-and-tea-leaf/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/CoffeeBeanandTeaLeaf052510-01-masterwits-cc-390x235.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/CoffeeBeanandTeaLeaf052510-01-masterwits-cc-390x235.jpg")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/bluefin-the-steak-house/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/Bluefin1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/Bluefin1.png")',
             }}
           >
             <div className="curtain" />
@@ -169,7 +169,7 @@ export default function page() {
             href="/heineken/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/Heineken.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/Heineken.jpg")',
             }}
           >
             <div className="curtain" />

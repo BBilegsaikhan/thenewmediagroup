@@ -117,7 +117,7 @@ export default function page() {
             href="/hasu-megawatt-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/khasu.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/khasu.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/mongoliin-%D0%BC%D0%B0rketingiin-kholboo/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/mmh.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/mmh.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/wagner-asia-automotive-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_1.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_1.png")',
             }}
           >
             <div className="curtain" />
@@ -156,7 +156,7 @@ export default function page() {
             href="/akuma/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/Akuma_nuur_huudas.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/Akuma_nuur_huudas.png")',
             }}
           >
             <div className="curtain" />

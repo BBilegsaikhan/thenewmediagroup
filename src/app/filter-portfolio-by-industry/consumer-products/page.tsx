@@ -116,8 +116,7 @@ export default function page() {
             className="portfolio-box"
             href="/sukhbaatar-district/"
             style={{
-              backgroundImage:
-                'url("http://newmediamarketingagency.com/media/nmgteam/content/works/work%20uchral/Sukhbaatar%20District/placeit_2.jpg")',
+              backgroundImage: 'url("")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +129,7 @@ export default function page() {
             href="/shangri-la-centre/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/shangrila.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/shangrila.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +142,7 @@ export default function page() {
             href="/nans-cashmere/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/1_1hZ5wX6.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/1_1hZ5wX6.jpg")',
             }}
           >
             <div className="curtain" />
@@ -169,7 +168,7 @@ export default function page() {
             href="/mongolian-star-distribution-llc/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/creative/mongolian_star_distrbution_logo.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/creative/mongolian_star_distrbution_logo.jpg")',
             }}
           >
             <div className="curtain" />
@@ -195,7 +194,7 @@ export default function page() {
             href="/europharma/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/uchral/creative/9.png")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/uchral/creative/9.png")',
             }}
           >
             <div className="curtain" />

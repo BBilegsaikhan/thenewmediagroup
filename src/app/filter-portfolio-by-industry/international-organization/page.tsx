@@ -117,7 +117,7 @@ export default function page() {
             href="/great-british-fair-mongolia-2015/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/Poster_web_fb_.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/Poster_web_fb_.jpg")',
             }}
           >
             <div className="curtain" />
@@ -130,7 +130,7 @@ export default function page() {
             href="/hackathon-youth-2015/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/Portfolio/11872245_757567294387216_7152081357512143032_o.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/Portfolio/11872245_757567294387216_7152081357512143032_o.jpg")',
             }}
           >
             <div className="curtain" />
@@ -143,7 +143,7 @@ export default function page() {
             href="/jci-mongolia/"
             style={{
               backgroundImage:
-                'url("/media/thenewmediagroup/content/jci1.jpg")',
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/jci1.jpg")',
             }}
           >
             <div className="curtain" />
@@ -155,7 +155,8 @@ export default function page() {
             className="portfolio-box"
             href="/millennium-challenge-corporation/"
             style={{
-              backgroundImage: 'url("/media/thenewmediagroup/content/5.jpg")',
+              backgroundImage:
+                'url("https://thenewmediagroup.co/media/thenewmediagroup/content/5.jpg")',
             }}
           >
             <div className="curtain" />
